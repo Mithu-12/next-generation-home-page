@@ -1,18 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as  Router, Switch, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './Component/Banner/Banner';
-import BannerItems from './Component/BannerItems/BannerItems';
-import Services from './Component/Services/Services';
-import Testimonials from './Component/Testimonials/Testimonials';
+
+import Header from './Component/Header/Header';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
     <div className="">
-        <Banner></Banner>
-        <BannerItems></BannerItems>
-        <Services></Services>
-        <Testimonials></Testimonials>
+        
+        <Router>
+        <Header></Header>
+        <Switch>
+          <Route exact path='/'>
+          <Home></Home>
+          </Route>
+         </Switch>
+      </Router>
     </div>
   );
 }

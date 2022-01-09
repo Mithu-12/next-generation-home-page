@@ -3,7 +3,7 @@
     z-index: -1;
     overflow: visible;
 }
-.items{
+.item{
     margin-top: -10% !important;
     z-index: 999;
     overflow: hidden;

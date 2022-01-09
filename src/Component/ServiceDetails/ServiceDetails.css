@@ -1,12 +1,16 @@
 .service-col{
     border-radius: 10px;
-    height: 400px;
+    height: 450px;
+    padding-bottom: 10px;
 }
 .date{
     background-color: #fff;
     padding: 5px 10px;
     text-align: center;
     border-radius: 50px;
-    margin-top: -40px;
     z-index: 999;
+}
+.learnBtn{
+    text-align: center;
+    margin-left: 30px;
 }

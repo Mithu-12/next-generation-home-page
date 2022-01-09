@@ -10,7 +10,7 @@ const BannerItems = () => {
         <div>
             <div className="banner-items">
                 <Container>
-                    <Row className='items'>
+                    <Row className='item'>
                         <Col xs={12} md={4} className="items-col">
                             <Card className='card'>
                                 <div className="imgStyle">

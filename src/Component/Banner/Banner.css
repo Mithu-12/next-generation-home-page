@@ -12,18 +12,7 @@
     width: 500px;
     text-align: left; 
 }
-.carousel-caption2 {
-    display: flex;
-    align-items: center;
-    top: 0;
-    left: 0;
-    right: 25px !important;
-    /* color: black; */
-    margin-right: 20px;
-    width: 500px;
-    text-align: right; 
-    margin: auto;
-}
+
 .carousel-container{
     z-index: -1 !important;
     height: 600px;

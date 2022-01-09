@@ -34,7 +34,7 @@ const Banner = () => {
                                 <h4 data-aos='fade-up'>Best <span className='bn-special'>Digital</span> Marketing Company</h4>
                                 <h1 data-aos='fade-up'>We Build for Your Comfort</h1>
                                 <p data-aos='fade-up'>Repair means to restore to proper operating condition a make biggest service for digital Marketing.</p>
-                                <Button data-aos='fade-left' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
+                                <Button data-aos='' className="btn btn-style">Get Started Now <AiOutlineArrowRight className="arrow" /></Button>
                             </div>
                         </Carousel.Caption>
                     </div>
@@ -46,7 +46,7 @@ const Banner = () => {
                         alt="Second slide"
                     />
 
-                    <div className="carousel-caption2">
+                    <div className="carousel-caption">
                         <Carousel.Caption className='carousel'>
                             <div className="caption">
                                 <h4 data-aos='fade-up'>We are always ready to <span className='bn-special'>Services</span></h4>

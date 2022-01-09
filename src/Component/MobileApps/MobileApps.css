@@ -1,0 +1,73 @@
+.app{
+    background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%);
+    border: 1px solid #272829;
+    box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    height: 438px;
+    border: 1px solid rgba(39, 40, 41, 1);
+    box-sizing: border-box;
+
+}
+.app-container{
+    margin-top: 110px;
+    
+
+}
+.app-items{
+    display: flex;
+    
+    
+}
+.app-content{
+    
+    justify-content: center;
+    align-items: center;
+}
+.app-img{
+    margin-top: -90px;
+    height: 650px;
+}
+.app-font h2{
+    margin-top: 40px;
+    margin-left: 45px;
+    font-size: 40px;
+    color: #30FBEF;
+    position: relative;
+}
+.banner-summary p{
+    color: #FFF;
+    margin-left: 50px;
+}
+.btn-styles{
+      background-color: #282828 !important;
+      padding-left: 15px;
+      margin-left: 50px;
+      font-weight: 500;
+      width: 210px;
+      height: 50px;
+      color: #fff;
+      /* border: 2px solid #282828; */
+      box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25), -3px -3px 8px rgba(75, 93, 104, 0.1);
+      border-radius: 50px;
+      margin-top: 15px;
+      margin-right: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .app-img{
+        margin-top: 10px !important;
+        height: 400px;
+    }
+    .app{
+        height: 100%;
+        box-sizing: border-box !important;
+    }
+    .app-image{
+        position: relative;
+    }
+}

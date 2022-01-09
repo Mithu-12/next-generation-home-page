@@ -1,0 +1,32 @@
+.timer{
+    margin-top: 75px;
+  }
+  .timer div:first-child p{
+      color: #f8f8f8;
+  }
+  .timer div:last-child{
+      border: 2px solid rgb(253, 46, 150);
+      border-radius: 3px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      margin: 3em;
+      padding: 3em;
+      text-align: center;
+  }
+  .timeSet{
+      font-size: 22px;
+      font-weight: 700;
+  }
+  .timeSet small{
+      color: #30FBEF;
+  }
+  .timeSet span{
+      color: RGB(253, 161, 43);
+  }
+  .timeSet p:first-child{
+      color: rgb(192, 255, 92);
+  }
+  .timer h1{
+      color: #30FBEF;
+      font-weight: 600;
+  }

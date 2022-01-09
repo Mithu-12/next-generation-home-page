@@ -25,9 +25,12 @@
   top: 15px;
 }
 .testimonial-header{
-    border-bottom: 3px solid coral;
+    border-bottom: 4px solid coral;
     width: 40%;
     text-align: center;
     left: 0;
     margin: auto;
+}
+.testimonial{
+  margin-bottom: 50px;
 }

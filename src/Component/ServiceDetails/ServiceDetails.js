@@ -21,9 +21,14 @@ const ServiceDetails = ({service}) => {
                                     </div>
                                         <p>{discription}</p>
                                     
-
-                                </Card.Body>
-                            </Card>
+                                        
+                                         </Card.Body>
+                                         <div className="learnBtn">
+                                         <div className="btn-styles">
+                                             <span>Learn more</span>
+                                        </div>
+                                         </div>
+                                </Card>
                         </Col>
         </div>
     );
