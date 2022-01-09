@@ -1,0 +1,12 @@
+.service-col{
+    border-radius: 10px;
+    height: 400px;
+}
+.date{
+    background-color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -40px;
+    z-index: 999;
+}
