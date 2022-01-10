@@ -9,6 +9,7 @@ import SpecialService from '../SpecialService/SpecialService';
 import Offer from '../Offer/Offer';
 import Registration from '../Registration/Registration';
 import Footer from '../Footer/Footer';
+import TeamSlider from '../TeamSlider/TeamSlider';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
         <SpecialService></SpecialService>
         <MobileApps></MobileApps>
         <Registration></Registration>
+        <TeamSlider></TeamSlider>
         <TryFree></TryFree>
         <Testimonials></Testimonials>
         <Footer></Footer>
