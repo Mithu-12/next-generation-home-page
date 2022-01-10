@@ -17,18 +17,18 @@
 }
 .special-item{
     width: 662px;
-    height:600px;
+    height:500px;
     padding: 0px;
     margin: 0px;
-    margin-top: -70px;
+    margin-top: -50px;
     box-shadow: 14px 14px 20px rgba(129, 128, 128, 0.12);
 }
 .special-items1{
-    height: 400px !important;
+    height: 350px !important;
     color: #fff;
 }
 .special-item1{
-    padding: 40px 50px;
+    padding: 30px 50px;
     
 }
 .special-double{
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center !important;
     align-items: center;
-    height: 670px !important;
+    height: 650px !important;
     width: 450px !important;
     box-shadow: 4px 4px 20px rgba(129, 128, 128, 0.12);
 }
